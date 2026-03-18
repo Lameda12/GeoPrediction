@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd ares-ui && npm install && npm run build",
+  "outputDirectory": "ares-ui/.next",
+  "installCommand": "cd ares-ui && npm install",
+  "framework": "nextjs",
+  "rootDirectory": "ares-ui"
+}
