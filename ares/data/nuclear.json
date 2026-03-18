@@ -1,0 +1,108 @@
+{
+  "_source": "NTI Nuclear Security Index 2024, SIPRI Yearbook 2024, Federation of American Scientists, Arms Control Association",
+  "_note": "MODEL DATA - NOT PREDICTIVE INTELLIGENCE. All values from open-source public research.",
+  "doctrine_profiles": {
+    "USA": {
+      "declared_doctrine": "Flexible_Response_NFU_Conditional",
+      "no_first_use": false,
+      "extended_deterrence_allies": ["Israel", "Saudi_Arabia", "Japan", "South_Korea", "EU_NATO"],
+      "launch_on_warning": true,
+      "second_strike_assured": true,
+      "nuclear_threshold_description": "Existential threat to US or allies; mass casualty WMD attack",
+      "warhead_yield_range_kt": [5, 1200],
+      "delivery_systems": ["ICBM_Minuteman_III", "SLBM_Trident_II", "B61_B83_gravity_bomb", "ALCM"],
+      "command_control_robustness": 0.98,
+      "survivability_index": 0.97,
+      "miniaturization_tactical_nukes": true
+    },
+    "Israel": {
+      "declared_doctrine": "Opacity_Ambiguity",
+      "no_first_use": false,
+      "neither_confirm_nor_deny": true,
+      "samson_option_threshold": "Existential_Conventional_Defeat",
+      "nuclear_threshold_description": "Existential defeat; regime collapse; mass casualty attack on population centers",
+      "warhead_yield_range_kt": [20, 400],
+      "delivery_systems": ["Jericho_III_ICBM", "Jericho_II_IRBM", "F-35I_gravity_bomb", "Dolphin_SLCM"],
+      "command_control_robustness": 0.88,
+      "survivability_index": 0.75,
+      "second_strike_submarine_probability": 0.65
+    },
+    "Iran": {
+      "declared_doctrine": "Non_Nuclear_Weapons_State",
+      "nuclear_program_status": "Advanced_Civilian_Military_Ambiguity",
+      "enrichment_level_max_pct": 60,
+      "enriched_uranium_90pct_kg": 60,
+      "weapons_grade_breakout_weeks": 1,
+      "device_assembly_months": 6,
+      "delivery_capable_months": 18,
+      "nuclear_threshold_description": "Regime survival; existential military defeat; nuclear strike by adversary",
+      "potential_delivery_systems": ["Shahab_3_MRBM", "Emad_IRBM", "Submarine_launched"],
+      "command_control_robustness": 0.55,
+      "khamenei_fatwa_against_nukes": true,
+      "khamenei_fatwa_reliability": 0.45
+    },
+    "China": {
+      "declared_doctrine": "No_First_Use_Assured",
+      "no_first_use": true,
+      "minimum_deterrence_modernizing": true,
+      "nuclear_threshold_description": "Nuclear attack on China only",
+      "warhead_yield_range_kt": [200, 5000],
+      "delivery_systems": ["DF5B_ICBM", "DF41_ICBM", "JL2_SLBM", "DF26_IRBM", "H6K_bomber"],
+      "command_control_robustness": 0.90,
+      "survivability_index": 0.88
+    },
+    "Russia": {
+      "declared_doctrine": "Escalate_to_Deescalate",
+      "no_first_use": false,
+      "tactical_nuclear_use_threshold": "Conventional_Defeat_Imminent",
+      "nuclear_threshold_description": "Threat to state existence; conventional defeat; WMD attack",
+      "warhead_yield_range_kt": [1, 800],
+      "delivery_systems": ["RS28_Sarmat_ICBM", "Bulava_SLBM", "Kinzhal_hypersonic", "Iskander_tactical", "Avangard_glide_vehicle"],
+      "command_control_robustness": 0.85,
+      "survivability_index": 0.92,
+      "tactical_nuclear_arsenal": 2000
+    }
+  },
+  "deterrence_model_parameters": {
+    "mutual_assured_destruction_threshold": {
+      "USA_Russia": true,
+      "USA_China": true,
+      "USA_Israel": false,
+      "Israel_Iran": false
+    },
+    "extended_deterrence_credibility": {
+      "USA_to_Israel": 0.88,
+      "USA_to_Saudi_Arabia": 0.72,
+      "USA_to_EU": 0.92
+    },
+    "nuclear_signaling_indicators": [
+      "Alert_level_elevation",
+      "ICBM_force_dispersal",
+      "SSBN_surge_deployment",
+      "Tactical_weapon_forward_deployment",
+      "Leadership_dispersal_bunkers",
+      "Public_nuclear_rhetoric",
+      "Test_detonation"
+    ],
+    "first_strike_stability_indices": {
+      "USA_Russia": 0.72,
+      "USA_China": 0.65,
+      "Israel_Iran": 0.40
+    },
+    "arms_control_treaties_active": {
+      "new_start_suspended": true,
+      "new_start_suspension_year": 2023,
+      "npt_active": true,
+      "jcpoa_status": "Collapsed_2018_Revived_Negotiations_Ongoing"
+    }
+  },
+  "nash_equilibrium_parameters": {
+    "rationality_assumption_weight": 0.70,
+    "miscalculation_probability_base": 0.12,
+    "fatigue_escalation_bias": 0.08,
+    "domestic_political_pressure_weight": 0.25,
+    "information_asymmetry_factor": 0.20,
+    "nuclear_taboo_strength": 0.78,
+    "nuclear_taboo_erosion_per_year": 0.008
+  }
+}

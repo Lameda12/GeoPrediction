@@ -1,0 +1,203 @@
+{
+  "_source": "World Bank 2024, IMF WEO 2024, US EIA, BIS, public trade data",
+  "_note": "MODEL DATA - NOT PREDICTIVE INTELLIGENCE. Values from open-source public reporting.",
+  "global": {
+    "world_gdp_trillion_usd": 105.0,
+    "global_oil_demand_mbpd": 103.0,
+    "strait_hormuz_flow_mbpd": 21.0,
+    "strait_hormuz_pct_global_flow": 0.204,
+    "red_sea_trade_pct_global": 0.12,
+    "brent_crude_baseline_usd": 82.0,
+    "global_debt_to_gdp": 3.38,
+    "usd_reserve_currency_pct": 0.585
+  },
+  "actors": {
+    "USA": {
+      "gdp_trillion_usd": 27.4,
+      "gdp_growth_rate_pct": 2.5,
+      "debt_to_gdp": 1.22,
+      "forex_reserves_billion_usd": 35.0,
+      "oil_production_mbpd": 13.2,
+      "oil_consumption_mbpd": 19.8,
+      "oil_import_dependency_pct": 0.10,
+      "oil_revenue_gdp_pct": 0.08,
+      "trade_with_china_billion_usd": 575.0,
+      "trade_openness_pct_gdp": 0.25,
+      "financial_sanctions_capacity_index": 0.99,
+      "swift_leverage_index": 0.97,
+      "petrodollar_dependency": 0.85,
+      "defense_spending_billion_usd": 858.0,
+      "defense_pct_gdp": 0.031,
+      "sectors": {
+        "energy": 0.08,
+        "manufacturing": 0.11,
+        "finance": 0.21,
+        "services": 0.78,
+        "agriculture": 0.009
+      },
+      "oil_price_gdp_elasticity": -0.008,
+      "iran_trade_exposure": 0.001
+    },
+    "Israel": {
+      "gdp_trillion_usd": 0.521,
+      "gdp_growth_rate_pct": 1.8,
+      "debt_to_gdp": 0.59,
+      "forex_reserves_billion_usd": 198.0,
+      "oil_production_mbpd": 0.01,
+      "oil_consumption_mbpd": 0.22,
+      "oil_import_dependency_pct": 0.99,
+      "oil_revenue_gdp_pct": 0.001,
+      "trade_openness_pct_gdp": 0.58,
+      "tech_sector_gdp_pct": 0.18,
+      "us_military_aid_billion_usd_annual": 3.8,
+      "tourism_revenue_billion_usd": 5.2,
+      "sectors": {
+        "energy": 0.02,
+        "technology": 0.18,
+        "manufacturing": 0.13,
+        "services": 0.73,
+        "defense_industry": 0.05
+      },
+      "oil_price_gdp_elasticity": -0.015,
+      "war_economy_mobilization_capacity": 0.85
+    },
+    "Iran": {
+      "gdp_trillion_usd": 0.401,
+      "gdp_ppp_trillion_usd": 1.689,
+      "gdp_growth_rate_pct": 4.7,
+      "debt_to_gdp": 0.35,
+      "forex_reserves_billion_usd": 40.0,
+      "frozen_assets_billion_usd": 6.0,
+      "oil_production_mbpd": 3.4,
+      "oil_consumption_mbpd": 1.9,
+      "oil_export_mbpd": 1.5,
+      "oil_revenue_gdp_pct": 0.35,
+      "oil_export_china_pct": 0.90,
+      "sanctions_exposure_index": 0.95,
+      "trade_with_china_billion_usd": 31.0,
+      "trade_with_russia_billion_usd": 4.5,
+      "sectors": {
+        "oil_gas": 0.35,
+        "manufacturing": 0.13,
+        "agriculture": 0.09,
+        "services": 0.43
+      },
+      "oil_price_gdp_elasticity": 0.12,
+      "sanction_shock_multiplier": 1.8,
+      "strait_hormuz_economic_leverage": 0.90
+    },
+    "Saudi_Arabia": {
+      "gdp_trillion_usd": 1.068,
+      "gdp_growth_rate_pct": 1.9,
+      "debt_to_gdp": 0.26,
+      "forex_reserves_billion_usd": 459.0,
+      "sovereign_wealth_fund_billion_usd": 925.0,
+      "oil_production_mbpd": 9.0,
+      "oil_consumption_mbpd": 3.5,
+      "oil_export_mbpd": 6.0,
+      "oil_revenue_gdp_pct": 0.62,
+      "sectors": {
+        "oil_gas": 0.42,
+        "manufacturing": 0.10,
+        "services": 0.48
+      },
+      "oil_price_gdp_elasticity": 0.15,
+      "oil_price_fiscal_breakeven": 78.0,
+      "vision2030_diversification_index": 0.35
+    },
+    "China": {
+      "gdp_trillion_usd": 17.7,
+      "gdp_ppp_trillion_usd": 33.0,
+      "gdp_growth_rate_pct": 4.6,
+      "debt_to_gdp": 0.83,
+      "forex_reserves_billion_usd": 3200.0,
+      "oil_production_mbpd": 4.1,
+      "oil_consumption_mbpd": 16.4,
+      "oil_import_dependency_pct": 0.75,
+      "oil_from_iran_mbpd": 1.5,
+      "oil_from_russia_mbpd": 2.1,
+      "iran_trade_billion_usd": 31.0,
+      "trade_with_usa_billion_usd": 575.0,
+      "trade_with_eu_billion_usd": 740.0,
+      "sectors": {
+        "manufacturing": 0.28,
+        "real_estate": 0.10,
+        "services": 0.54,
+        "agriculture": 0.07
+      },
+      "oil_price_gdp_elasticity": -0.018,
+      "hormuz_dependency_index": 0.55,
+      "bri_investment_at_risk_billion_usd": 200.0
+    },
+    "EU": {
+      "gdp_trillion_usd": 18.4,
+      "gdp_growth_rate_pct": 0.9,
+      "debt_to_gdp": 0.84,
+      "forex_reserves_billion_usd": 800.0,
+      "oil_production_mbpd": 1.5,
+      "oil_consumption_mbpd": 10.0,
+      "oil_import_dependency_pct": 0.85,
+      "oil_from_russia_pct_now": 0.12,
+      "lng_import_billion_usd": 80.0,
+      "trade_with_china_billion_usd": 740.0,
+      "sectors": {
+        "manufacturing": 0.20,
+        "services": 0.74,
+        "agriculture": 0.015
+      },
+      "oil_price_gdp_elasticity": -0.014,
+      "energy_security_vulnerability": 0.72
+    },
+    "India": {
+      "gdp_trillion_usd": 3.73,
+      "gdp_growth_rate_pct": 7.0,
+      "debt_to_gdp": 0.83,
+      "forex_reserves_billion_usd": 600.0,
+      "oil_production_mbpd": 0.78,
+      "oil_consumption_mbpd": 5.4,
+      "oil_import_dependency_pct": 0.85,
+      "oil_from_russia_mbpd": 1.9,
+      "oil_from_middle_east_pct": 0.58,
+      "trade_with_iran_billion_usd": 2.5,
+      "sectors": {
+        "services": 0.55,
+        "manufacturing": 0.16,
+        "agriculture": 0.17
+      },
+      "oil_price_gdp_elasticity": -0.016,
+      "hormuz_exposure_index": 0.65
+    }
+  },
+  "oil_shock_model": {
+    "hormuz_blockade_scenarios": {
+      "partial_25pct": {
+        "supply_disruption_mbpd": 5.25,
+        "price_spike_pct": 35,
+        "duration_weeks_expected": 4
+      },
+      "partial_50pct": {
+        "supply_disruption_mbpd": 10.5,
+        "price_spike_pct": 65,
+        "duration_weeks_expected": 8
+      },
+      "full_blockade": {
+        "supply_disruption_mbpd": 21.0,
+        "price_spike_pct": 150,
+        "duration_weeks_expected": 12
+      }
+    },
+    "iea_spr_release_capacity_mbpd": 6.0,
+    "opec_spare_capacity_mbpd": 3.5,
+    "price_elasticity_of_demand": -0.15,
+    "recession_threshold_oil_price_usd": 130
+  },
+  "leontief_sector_multipliers": {
+    "energy_to_manufacturing": 0.35,
+    "energy_to_transport": 0.45,
+    "energy_to_agriculture": 0.15,
+    "energy_to_finance": 0.08,
+    "manufacturing_to_services": 0.22,
+    "finance_to_all_sectors": 0.30,
+    "trade_disruption_to_gdp": 0.18
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "_source": "IISS Military Balance 2024, SIPRI, public domain estimates",
+  "_note": "MODEL DATA - NOT INTELLIGENCE. All values from open-source public reporting.",
+  "actors": {
+    "USA": {
+      "force_size": 1400000,
+      "active_personnel": 1400000,
+      "reserve_personnel": 800000,
+      "air_assets": {
+        "fighter_attack": 2085,
+        "stealth_aircraft": 186,
+        "bombers": 140,
+        "tankers": 479,
+        "isr_aircraft": 312,
+        "uav_armed": 320
+      },
+      "naval_assets": {
+        "aircraft_carriers": 11,
+        "destroyers": 92,
+        "submarines_ssn": 50,
+        "submarines_ssbn": 14,
+        "cruisers": 22
+      },
+      "land_forces": {
+        "main_battle_tanks": 2509,
+        "armored_vehicles": 25000,
+        "artillery": 1299,
+        "mlrs": 857
+      },
+      "missile_inventory": {
+        "icbm": 400,
+        "slbm": 280,
+        "tomahawk_cruise": 4000,
+        "patriot_batteries": 60,
+        "thaad_batteries": 7
+      },
+      "nuclear_warheads": 5550,
+      "deployed_nuclear": 1700,
+      "cyber_capability_index": 0.97,
+      "space_assets_index": 0.99,
+      "c4isr_index": 0.99,
+      "logistics_sustainability_months": 24,
+      "power_projection_index": 0.99
+    },
+    "Israel": {
+      "force_size": 169500,
+      "active_personnel": 169500,
+      "reserve_personnel": 465000,
+      "air_assets": {
+        "fighter_attack": 340,
+        "stealth_aircraft": 50,
+        "bombers": 0,
+        "tankers": 8,
+        "isr_aircraft": 35,
+        "uav_armed": 100
+      },
+      "naval_assets": {
+        "aircraft_carriers": 0,
+        "destroyers": 0,
+        "submarines_ssn": 0,
+        "submarines_ssbn": 0,
+        "corvettes": 7,
+        "submarines_conventional": 5
+      },
+      "land_forces": {
+        "main_battle_tanks": 1650,
+        "armored_vehicles": 10000,
+        "artillery": 650,
+        "mlrs": 150
+      },
+      "missile_inventory": {
+        "icbm": 0,
+        "slbm": 0,
+        "jericho_iii_irbm": 50,
+        "jericho_ii_mrbm": 50,
+        "delilah_cruise": 200,
+        "arrow_3_batteries": 3,
+        "arrow_2_batteries": 4,
+        "iron_dome_batteries": 10,
+        "david_sling_batteries": 2
+      },
+      "nuclear_warheads": 90,
+      "deployed_nuclear": 0,
+      "cyber_capability_index": 0.92,
+      "space_assets_index": 0.75,
+      "c4isr_index": 0.91,
+      "logistics_sustainability_months": 3,
+      "power_projection_index": 0.55
+    },
+    "Iran": {
+      "force_size": 610000,
+      "active_personnel": 525000,
+      "reserve_personnel": 350000,
+      "irgc_personnel": 125000,
+      "air_assets": {
+        "fighter_attack": 161,
+        "stealth_aircraft": 0,
+        "bombers": 0,
+        "tankers": 4,
+        "isr_aircraft": 12,
+        "uav_armed": 200
+      },
+      "naval_assets": {
+        "aircraft_carriers": 0,
+        "destroyers": 6,
+        "frigates": 5,
+        "fast_attack_craft": 150,
+        "submarines_conventional": 19,
+        "mine_warfare_vessels": 5
+      },
+      "land_forces": {
+        "main_battle_tanks": 2895,
+        "armored_vehicles": 7000,
+        "artillery": 2100,
+        "mlrs": 900
+      },
+      "missile_inventory": {
+        "icbm": 0,
+        "irbm_shahab3": 50,
+        "mrbm_emad": 30,
+        "mrbm_ghadr": 40,
+        "srbm_fateh": 200,
+        "srbm_zolfaghar": 80,
+        "cruise_missile_soumar": 50,
+        "hypersonic_fattah": 10,
+        "ballistic_total_estimate": 3000
+      },
+      "nuclear_warheads": 0,
+      "enriched_uranium_90pct_kg": 60,
+      "breakout_time_weeks": 1,
+      "cyber_capability_index": 0.72,
+      "space_assets_index": 0.35,
+      "c4isr_index": 0.58,
+      "logistics_sustainability_months": 6,
+      "power_projection_index": 0.45,
+      "strait_hormuz_mining_capability": 0.85
+    },
+    "Hezbollah": {
+      "force_size": 100000,
+      "active_fighters": 30000,
+      "reserve_fighters": 70000,
+      "air_assets": {
+        "uav_armed": 2000,
+        "uav_recon": 500
+      },
+      "naval_assets": {},
+      "land_forces": {
+        "main_battle_tanks": 0,
+        "atgm_systems": 1000,
+        "anti_tank_missiles": 10000
+      },
+      "missile_inventory": {
+        "rockets_short_range": 130000,
+        "rockets_medium_range_m302": 15000,
+        "precision_missiles_fateh": 2500,
+        "anti_ship_c802": 25
+      },
+      "nuclear_warheads": 0,
+      "cyber_capability_index": 0.35,
+      "logistics_sustainability_months": 2,
+      "iran_resupply_dependency": 0.9
+    },
+    "Houthis": {
+      "force_size": 200000,
+      "active_fighters": 200000,
+      "air_assets": {
+        "uav_armed": 400,
+        "uav_recon": 200
+      },
+      "naval_assets": {
+        "fast_attack_craft": 20,
+        "sea_mines": 200,
+        "explosive_surface_drones": 100
+      },
+      "land_forces": {
+        "main_battle_tanks": 66,
+        "armored_vehicles": 400,
+        "artillery": 200
+      },
+      "missile_inventory": {
+        "ballistic_missiles_quds": 100,
+        "cruise_missiles_quds": 400,
+        "anti_ship_missiles": 50
+      },
+      "nuclear_warheads": 0,
+      "cyber_capability_index": 0.20,
+      "logistics_sustainability_months": 3,
+      "iran_resupply_dependency": 0.85,
+      "red_sea_interdiction_index": 0.70
+    },
+    "Saudi_Arabia": {
+      "force_size": 250000,
+      "active_personnel": 250000,
+      "air_assets": {
+        "fighter_attack": 372,
+        "stealth_aircraft": 0,
+        "uav_armed": 50
+      },
+      "naval_assets": {
+        "frigates": 7,
+        "corvettes": 4,
+        "mine_countermeasures": 3
+      },
+      "land_forces": {
+        "main_battle_tanks": 900,
+        "armored_vehicles": 5000,
+        "artillery": 500
+      },
+      "missile_inventory": {
+        "patriot_batteries": 20,
+        "css5_irbm": 60,
+        "thaad_batteries": 2
+      },
+      "nuclear_warheads": 0,
+      "cyber_capability_index": 0.55,
+      "logistics_sustainability_months": 6,
+      "us_alliance_reliability": 0.85
+    },
+    "China": {
+      "force_size": 2035000,
+      "active_personnel": 2035000,
+      "air_assets": {
+        "fighter_attack": 1700,
+        "stealth_aircraft": 50,
+        "bombers": 250,
+        "uav_armed": 280
+      },
+      "naval_assets": {
+        "aircraft_carriers": 3,
+        "destroyers": 43,
+        "frigates": 54,
+        "submarines_ssn": 12,
+        "submarines_ssbn": 6,
+        "submarines_conventional": 45
+      },
+      "land_forces": {
+        "main_battle_tanks": 5850,
+        "armored_vehicles": 35000,
+        "artillery": 10000
+      },
+      "missile_inventory": {
+        "icbm": 400,
+        "irbm_df26": 200,
+        "mrbm_df21": 150,
+        "hypersonic_df17": 100,
+        "cruise_missile_cj10": 500
+      },
+      "nuclear_warheads": 500,
+      "cyber_capability_index": 0.94,
+      "power_projection_index": 0.80
+    },
+    "Russia": {
+      "force_size": 1150000,
+      "active_personnel": 1150000,
+      "air_assets": {
+        "fighter_attack": 1172,
+        "stealth_aircraft": 12,
+        "bombers": 180,
+        "uav_armed": 150
+      },
+      "naval_assets": {
+        "aircraft_carriers": 1,
+        "destroyers": 15,
+        "submarines_ssn": 22,
+        "submarines_ssbn": 11,
+        "submarines_conventional": 22
+      },
+      "land_forces": {
+        "main_battle_tanks": 12500,
+        "armored_vehicles": 30000,
+        "artillery": 6000
+      },
+      "missile_inventory": {
+        "icbm": 306,
+        "slbm": 176,
+        "irbm_iskander": 160,
+        "cruise_kalibr": 500,
+        "hypersonic_kinzhal": 50,
+        "hypersonic_avangard": 6
+      },
+      "nuclear_warheads": 6257,
+      "deployed_nuclear": 1588,
+      "cyber_capability_index": 0.93,
+      "power_projection_index": 0.75
+    },
+    "EU": {
+      "force_size": 1400000,
+      "combined_active_personnel": 1400000,
+      "air_assets": {
+        "fighter_attack": 1500,
+        "stealth_aircraft": 0
+      },
+      "naval_assets": {
+        "aircraft_carriers": 4,
+        "destroyers": 40,
+        "submarines_ssn": 10,
+        "submarines_ssbn": 8
+      },
+      "nuclear_warheads": 515,
+      "cyber_capability_index": 0.80,
+      "nato_integration_index": 0.90
+    }
+  }
+}

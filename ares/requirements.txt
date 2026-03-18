@@ -1,0 +1,26 @@
+# ARES — Adaptive Risk and Escalation Simulator
+# Python 3.11+ required
+
+# Core math / stats
+numpy>=1.26.0
+scipy>=1.11.0
+pandas>=2.1.0
+
+# Visualization
+matplotlib>=3.8.0
+plotly>=5.18.0
+
+# Dashboard
+streamlit>=1.29.0
+
+# PDF report generation
+reportlab>=4.0.0
+
+# Data modeling
+pydantic>=2.5.0
+
+# Terminal formatting
+rich>=13.7.0
+
+# Optional: faster scientific computing
+# numba>=0.58.0
